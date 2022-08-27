@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 500;
+  color: #1e1e1e;
+  background-color: rgb(226, 238, 238);
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px 40px;
+}
+
+a {
+  color: #1e1e1e;
+  text-decoration: none;
+}
+
+.nav-link {
+  list-style: none;
+  margin: 20px 0;
+  border-bottom: 1px solid #eee;
+  width: 7rem;
+}
+
+/* Navbar */
+.navbar {
+  background: #fff;
+  position: fixed;
+  width: 100%;
+}
+
+.flex-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-header span {
+  color: #09b996;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-toggle {
+  border: transparent;
+  background: transparent;
+  color: #09b996;
+  font-size: 1.6rem;
+}
+
+/* make nav-links disappear */
+.nav-links {
+  height: 0;
+  overflow: hidden;
+}
+
+.nav-open {
+  height: 35vh;
+}
+
+@media only screen and (min-width: 900px) {
+  .nav-toggle {
+    display: none;
+  }
+
+  .nav-header {
+    display: block;
+  }
+
+  .flex-nav {
+    padding: 7px 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+
+  .nav-links {
+    height: auto;
+  }
+
+  ul {
+    text-align: center;
+  }
+
+  .nav-link {
+    display: inline-block;
+    border-bottom: none;
+  }
+
+  .nav-links span {
+    color: #fff;
+    background-color: #09b996;
+    padding: 10px 20px;
+  }
+}
