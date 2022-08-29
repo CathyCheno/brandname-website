@@ -6,3 +6,8 @@ const nav = document.querySelector("#nav-links");
 navToggle.addEventListener("click", () => {
   nav.classList.toggle('nav-open');
 })
+
+// scroll to top
+function scrollToTop() {
+  window.scrollTo(0, 0);
+}
