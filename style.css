@@ -15,7 +15,6 @@ body {
   font-family: 'Tajawal', sans-serif;
   font-weight: 500;
   color: #1e1e1e;
-  /* background-color: rgb(226, 238, 238); */
 }
 
 .container {
@@ -121,7 +120,6 @@ a {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    
   }
 
   .nav-links {
@@ -144,9 +142,69 @@ a {
   }
 }
 
-/* about */
+/* about , work */
+.main-about,
+.main-work,
+.main-team,
+.main-faq,
+.main-contact {
+  width: 1290px;
+  max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
-/* work */
+.main img {
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+  padding: 0 4px;
+}
+
+.all-text {
+  width: 600px;
+  max-width: 100%;
+  padding: 0 10px;
+}
+
+.all-text h3 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #777;
+  letter-spacing: 1px;
+}
+
+.all-text h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.all-text p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.btn button {
+  background: #eee;
+  color: #1e1e1e;
+  font-size: 15px;
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+  margin-right: 8px;
+}
+
+.btn button:hover {
+  background-color: #09b996;
+  color: #fff;
+  transition: 0.2s;
+  cursor: pointer;
+}
 
 /* team */
 
