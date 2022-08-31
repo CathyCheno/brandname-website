@@ -27,12 +27,12 @@ body {
   padding: 7rem 0 2rem;
 }
 
-.section-title {
+/* .section-title {
   color: #3c3c3c;
   font-size: 2rem;
   text-align: center;
   margin-bottom: 1.5rem;
-}
+} */
 
 .section-height {
   height: 70vh;
@@ -157,7 +157,7 @@ a {
 }
 
 .main img {
-  width: 300px;
+  width: 300px;  
   max-width: 100%;
   height: auto;
   padding: 0 4px;
@@ -167,7 +167,7 @@ a {
   width: 600px;
   max-width: 100%;
   padding: 0 10px;
-}
+} 
 
 .all-text h3 {
   font-size: 18px;
@@ -206,15 +206,88 @@ a {
   cursor: pointer;
 }
 
-/* team */
+/*team */
+.description {
+  max-width: 100%;
+  padding: 0 10px;
+}
+
+.description h3 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #777;
+  letter-spacing: 1px;
+}
+
+.description h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.description p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
 
 /* faq */
+.faq {
+  width: 980px;
+  font-size: 22px;
+  padding: 15px 20px;
+  cursor: pointer;
+}
+
+details {
+  background: #f6f6f6;
+  padding: 15px 20px;
+  margin-top: 10px;
+}
 
 /* contact */
+form {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  padding: 20px 50px;
+  gap: 20px;
+}
+
+input,
+select,
+textarea {
+  padding: 15px 25px;
+  background: transparent;
+  border: 1px solid #1e1e1e;
+  border-radius: 5px;
+}
+
+textarea {
+  height: 200px;
+}
+
+button {
+  background: #eee;
+  color: #1e1e1e;
+  font-size: 15px;
+  padding: 15px 30px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #08977b;
+  color: #fff;
+  transition: 0.5s;
+  cursor: pointer;
+}
 
 /* footer */
 footer {
-  background: #1e1e1e;
+  background:#1e1e1e;
   color: #fff;
   padding: 20px 20px;
   margin-top: 60px;
